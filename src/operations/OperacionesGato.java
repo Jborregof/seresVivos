@@ -13,4 +13,7 @@ public class OperacionesGato {
 		g1.setEdad(g1.getEdad() + 1);
 	}
 
+	public static boolean esMacho(Gato g1) {
+		return g1.getGenero() == 'M';
+	}
 }

@@ -18,4 +18,10 @@ class OperacionesGatoTest {
 		assertEquals(esperado,g1.getEdad());
 	}
 
+	@Test
+	void test2() {
+		boolean esperado = true;
+		assertEquals(esperado,OperacionesGato.esMacho(g1));
+	}
+
 }

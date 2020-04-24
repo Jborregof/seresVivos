@@ -11,5 +11,9 @@ public class OperacionesHumano {
 	public static void cumpleAnos(Humano h1) {
 		h1.setEdad(h1.getEdad() + 1);
 	}
+
+	public static boolean esHombre(Humano h1) {
+		return h1.getGenero() == 'M';
+	}
 	
 }

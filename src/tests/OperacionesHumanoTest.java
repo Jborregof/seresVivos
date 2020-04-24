@@ -18,4 +18,10 @@ class OperacionesHumanoTest {
 		assertEquals(esperado,h1.getEdad());
 	}
 
+	@Test
+	void test2() {
+		boolean esperado = true;
+		assertEquals(esperado,OperacionesHumano.esHombre(h1));
+	}
+
 }
