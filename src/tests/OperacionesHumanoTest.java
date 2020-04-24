@@ -14,7 +14,7 @@ class OperacionesHumanoTest {
 
 	@Test
 	void test() {
-		OperacionesHumano.cumpleAños(h1);
+		OperacionesHumano.cumpleAnos(h1);
 		int esperado = 1;
 		assertEquals(esperado,h1.getEdad());
 	}

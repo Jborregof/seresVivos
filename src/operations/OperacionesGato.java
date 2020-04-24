@@ -9,7 +9,7 @@ public class OperacionesGato {
 		System.out.println(g1.getNombre() + "dijo -Miau- a " + h1.getNombre());	
 	}
 	
-	public static void cumpleAños(Gato g1) {
+	public static void cumpleAnos(Gato g1) {
 		g1.setEdad(g1.getEdad() + 1);
 	}
 

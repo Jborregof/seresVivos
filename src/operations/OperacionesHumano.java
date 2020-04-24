@@ -8,7 +8,7 @@ public class OperacionesHumano {
 		System.out.println(h1.getNombre() + "saludó a " + h2.getNombre());	
 	}
 	
-	public static void cumpleAños(Humano h1) {
+	public static void cumpleAnos(Humano h1) {
 		h1.setEdad(h1.getEdad() + 1);
 	}
 	

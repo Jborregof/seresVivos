@@ -14,7 +14,7 @@ class OperacionesGatoTest {
 
 	@Test
 	void test() {
-		OperacionesGato.cumpleAños(g1);
+		OperacionesGato.cumpleAnos(g1);
 		int esperado = 1;
 		assertEquals(esperado,g1.getEdad());
 	}
