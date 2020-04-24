@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 
 import model.Gato;
 import operations.OperacionesGato;
-import operations.OperacionesHumano;
 
 class OperacionesGatoTest {
 	
