@@ -5,7 +5,7 @@ import model.Humano;
 public class OperacionesHumano {
 
 	public static void saludar(Humano h1, Humano h2) {
-		System.out.println(h1.getNombre() + "saludó a " + h2.getNombre());	
+		System.out.println(h1.getNombre() + "saluda a " + h2.getNombre());	
 	}
 	
 	public static void cumpleAnos(Humano h1) {
